@@ -2,6 +2,7 @@ QuantumultX 本地脚本使用指南
 
 
 创建者：@outerman
+
 频道：@outershare
 
 1.保存脚本到指定位置
