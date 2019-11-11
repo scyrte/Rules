@@ -181,5 +181,5 @@ function is_timeline_likerecommend(title) {
     return title && title.type && title.type == "likerecommend" ? true : false;
 }
 
-// 微博应用内广告（BY yichahucha）
-// https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
+# 微博应用内广告（BY yichahucha）
+# https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
