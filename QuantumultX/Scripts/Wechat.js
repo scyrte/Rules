@@ -12,4 +12,4 @@ obj.advertisement_num = 0;
 obj.advertisement_info = [];
 $done({body: JSON.stringify(obj)}); 
 
-//by Choler
+// 去微信公众号广告 (By Choler)
