@@ -27,5 +27,5 @@ if (url.indexOf(path2) != -1) {
 
 $done({body});
 
-// 去微博广告 (By yichahucha)
+// 微博应用内广告 (By yichahucha)
 // https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
