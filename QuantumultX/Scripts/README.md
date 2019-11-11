@@ -23,11 +23,9 @@
 
 
 [rewrite_local]
-
 ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body Kuwo.js
 
 [mitm]
-
 hostname= *.kuwo.cn
 
 # 完成
