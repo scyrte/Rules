@@ -1,0 +1,17 @@
+################################################################
+# 分流作用：分流去广告
+# 重要提示：无
+# 更新时间：2023.02.15
+# 策略选择：reject
+#############################################
+# > "reject"        策略返回 HTTP 状态码 404,不附带任何额外内容
+# > "reject-200"    策略返回 HTTP 状态码 200,不附带任何额外内容
+# > "reject-img"    策略返回 HTTP 状态码 200,同时附带 1px gif
+# > "reject-dict"   策略返回 HTTP 状态码 200,同时附带一个空的 JSON 对象
+# > "reject-array"  策略返回 HTTP 状态码 200,同时附带一个空的 JSON 数组
+#############################################
+
+IP-CIDR,118.89.204.198/32,reject
+USER-AGENT,AVOS*,reject
+host, gadx.qinlinad.com, reject
+host-suffix, p9-be-pack-sign.pglstatp-toutiao.com, reject
