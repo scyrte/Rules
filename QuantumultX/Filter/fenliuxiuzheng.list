@@ -5,6 +5,11 @@
 # 策略选择：直连 direct
 ############################################
 
+# 内网地址
+ip-cidr, 10.0.0.0/8, direct
+ip-cidr, 127.0.0.0/8, direct
+ip-cidr, 172.16.0.0/12, direct
+
 # 什么值得买
 host, analytics-api-01.smzdm.com, direct
 host, analytics-api.smzdm.com, direct
