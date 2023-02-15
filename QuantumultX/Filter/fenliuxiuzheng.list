@@ -17,6 +17,7 @@ host, analytics-api.smzdm.com, direct
 
 # 阿里系
 host, adashx.ut.amap.com, direct
+host, adashx.m.taobao.com, direct
 host, eco.taobao.com, direct
 
 # 京东系
