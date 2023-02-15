@@ -1,0 +1,15 @@
+# 修正被分流到国外的网站
+# 2023.2.15
+
+# 什么值得买
+host, analytics-api-01.smzdm.com, direct
+host, analytics-api.smzdm.com, direct
+
+# 阿里系
+host, adashx.ut.amap.com, direct
+host, eco.taobao.com, direct
+
+# 京东系
+host, im-x.jd.com, direct
+host, blackhole.m.jd.com, direct
+
