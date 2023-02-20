@@ -2,7 +2,7 @@
 # 分流作用：分流去广告
 # 重要提示：无
 # 项目地址：https://raw.githubusercontent.com/scyrte/Rules/master/QuantumultX/Filter/MyBlockAds.list
-# 更新时间：2023.02.15
+# 更新时间：2023.02.20
 # 策略选择：reject
 #############################################
 # > "reject"        策略返回 HTTP 状态码 404,不附带任何额外内容
@@ -16,3 +16,7 @@ IP-CIDR,118.89.204.198/32,reject
 USER-AGENT,AVOS*,reject
 host, gadx.qinlinad.com, reject
 host-suffix, p9-be-pack-sign.pglstatp-toutiao.com, reject
+host-suffix, openinstall.io, reject
+host-suffix, huichuan-mc.sm.cn, reject
+host-suffix, knockout, reject
+host-suffix, umsns.com, reject
