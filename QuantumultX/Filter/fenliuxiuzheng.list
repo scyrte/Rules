@@ -2,25 +2,33 @@
 # 分流作用：修正某些被分流到外面的国内网站
 # 重要提示：无
 # 项目地址：https://raw.githubusercontent.com/scyrte/Rules/master/QuantumultX/Filter/fenliuxiuzheng.list
-# 更新时间：2023.02.15
+# 更新时间：2023.02.20
 # 策略选择：直连 direct
 ############################################
 
-# 内网地址
-ip-cidr, 10.0.0.0/8, direct
-ip-cidr, 127.0.0.0/8, direct
-ip-cidr, 172.16.0.0/12, direct
-
 # 什么值得买
-host, analytics-api-01.smzdm.com, direct
-host, analytics-api.smzdm.com, direct
+host-suffix, analytics-api-01.smzdm.com, direct
+host-suffix, analytics-api.smzdm.com, direct
 
 # 阿里系
-host, adashx.ut.amap.com, direct
-host, adashx.m.taobao.com, direct
-host, eco.taobao.com, direct
+host-suffix, adashx.ut.amap.com, direct
+host-suffix, adashx.m.taobao.com, direct
+host-suffix, eco.taobao.com, direct
+host-suffix, msg.umengcloud.com, direct
+host-suffix, utoken.umeng.com, direct
+host-suffix, umdc.aliapp.org, direct
+host-suffix, abtest.alibaba.com, direct
+host-suffix, ynuf.aliapp.org, direct
+host-suffix, cdn.ynuf.aliapp.org, direct
+host-suffix, fourier.taobao.com, direct
 
 # 京东系
-host, im-x.jd.com, direct
-host, blackhole.m.jd.com, direct
+host-suffix, im-x.jd.com, direct
+host-suffix, blackhole.m.jd.com, direct
+host-suffix, knicks.jd.com, direct
 
+# 其他
+host-suffix, jiguang.cn, direct
+host-suffix, qiyukf.com, direct
+host-suffix, pv.sohu.com, direct
+host-suffix, stats.cn.ronghub.com, direct
