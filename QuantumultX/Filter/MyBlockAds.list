@@ -17,9 +17,7 @@ host, xiaoyi-publicfiles.oss-cn-shanghai.aliyuncs.com, reject
 # 亲邻小程序
 host, gadx.qinlinad.com, reject
 
-ip-cidr,203.107.1.1/24,reject
-ip-cidr,118.89.204.198/32,reject
-host-suffix, p9-be-pack-sign.pglstatp-toutiao.com, reject
+# 其他
 host-suffix, openinstall.io, reject
 host-suffix, huichuan-mc.sm.cn, reject
 host-suffix, knockout, reject
