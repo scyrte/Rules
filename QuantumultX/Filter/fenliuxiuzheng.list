@@ -2,13 +2,10 @@
 # 分流作用：修正某些被分流到外面的国内网站
 # 重要提示：无
 # 项目地址：https://raw.githubusercontent.com/scyrte/Rules/master/QuantumultX/Filter/fenliuxiuzheng.list
-# 更新时间：2023.02.20
+# 更新时间：2023.02.27
 # 策略选择：直连 direct
 ############################################
 
-# 什么值得买
-host-suffix, analytics-api-01.smzdm.com, direct
-host-suffix, analytics-api.smzdm.com, direct
 
 # 阿里系
 host-suffix, adashx.ut.amap.com, direct
@@ -31,7 +28,4 @@ host-suffix, jiguang.cn, direct
 host-suffix, qiyukf.com, direct
 host-suffix, pv.sohu.com, direct
 host-suffix, stats.cn.ronghub.com, direct
-
-host-suffix, shrtm.nu, 国外网站
-host-suffix, limbopro.com, 国外网站
 
