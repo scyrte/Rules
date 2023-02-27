@@ -14,7 +14,6 @@ host-suffix, analytics-api.smzdm.com, direct
 host-suffix, adashx.ut.amap.com, direct
 host-suffix, adashx.m.taobao.com, direct
 host-suffix, eco.taobao.com, direct
-host-suffix, msg.umengcloud.com, direct
 host-suffix, utoken.umeng.com, direct
 host-suffix, umdc.aliapp.org, direct
 host-suffix, abtest.alibaba.com, direct
@@ -32,3 +31,7 @@ host-suffix, jiguang.cn, direct
 host-suffix, qiyukf.com, direct
 host-suffix, pv.sohu.com, direct
 host-suffix, stats.cn.ronghub.com, direct
+
+host-suffix, shrtm.nu, 国外网站
+host-suffix, limbopro.com, 国外网站
+
