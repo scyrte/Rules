@@ -13,10 +13,16 @@
 #############################################
 # 小蚁摄像机（误杀大）
 host, xiaoyi-publicfiles.oss-cn-shanghai.aliyuncs.com, reject
+host-suffix, log.ys7.com, reject
 
 # 亲邻小程序
+;host, qadm.qinlinad.com, reject
+;host, qadx.qinlinad.com, reject
 host-suffix, qinlinad.com, reject
+host-suffix, qinlinmob.com, reject
+host-suffix, qinlindmp.com, reject
 host, mall-dsp.qinlinkeji.com, reject
+host, sales.qinlinkeji.com, reject
 
 # 其他
 host-suffix, openinstall.io, reject
