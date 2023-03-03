@@ -9,11 +9,13 @@
 host, consumerapp-1251779293.cos.ap-guangzhou.myqcloud.com, reject
 host, consumerapp-1251779293.image.myqcloud.com, reject
 host, ad-dsp-1251779293.cos.ap-guangzhou.myqcloud.com, reject
-host, hugelog.fcbox.com, reject
 ## 丰巢广告助手
 host-suffix, dsp.fcbox.com, reject
-## 丰巢商城（有误杀）
+## 屏蔽丰巢商城
 host-suffix, mall.fcbox.com, reject
+host, hugelog.fcbox.com, reject
+host, hugelog-sit1.fcbox.com, reject
+host, hugelog-sit3.fcbox.com, reject
 
 # 乐刷/收银通，微信扫码支付广告
 host, jlads.leshuazf.com, reject
