@@ -5,6 +5,15 @@
 # 更新时间：2023.3.3
 # 策略选择：reject
 #############################################
+# 丰巢小程序
+host, consumerapp-1251779293.cos.ap-guangzhou.myqcloud.com, reject
+host, consumerapp-1251779293.image.myqcloud.com, reject
+host, ad-dsp-1251779293.cos.ap-guangzhou.myqcloud.com, reject
+host, hugelog.fcbox.com, reject
+host, dsp.fcbox.com, reject
+## 丰巢商城（有误杀）
+host-suffix, mall.fcbox.com, reject
+
 # 乐刷/收银通，微信扫码支付广告
 host, jlads.leshuazf.com, reject
 
