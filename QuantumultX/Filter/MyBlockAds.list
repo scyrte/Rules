@@ -2,15 +2,15 @@
 # 分流作用：分流去广告
 # 重要提示：无
 # 项目地址：https://raw.githubusercontent.com/scyrte/Rules/master/QuantumultX/Filter/MyBlockAds.list
-# 更新时间：2023.02.27
+# 更新时间：2023.3.3
 # 策略选择：reject
 #############################################
-# > "reject"        策略返回 HTTP 状态码 404,不附带任何额外内容
-# > "reject-200"    策略返回 HTTP 状态码 200,不附带任何额外内容
-# > "reject-img"    策略返回 HTTP 状态码 200,同时附带 1px gif
-# > "reject-dict"   策略返回 HTTP 状态码 200,同时附带一个空的 JSON 对象
-# > "reject-array"  策略返回 HTTP 状态码 200,同时附带一个空的 JSON 数组
-#############################################
+# 乐刷/收银通，微信扫码支付广告
+host, jlads.leshuazf.com, reject
+
+# 乐聚量/扫扫科技
+host-suffix, lejuliang.com, reject
+
 # 小蚁摄像机（误杀大）
 host, xiaoyi-publicfiles.oss-cn-shanghai.aliyuncs.com, reject
 host-suffix, log.ys7.com, reject
