@@ -1,6 +1,6 @@
 ################################################################
 # 分流作用：分流去广告
-# 重要提示：部分规则误杀严重，不喜勿用
+# 重要提示：部分规则有误杀，自行选用
 # 项目地址：https://raw.githubusercontent.com/scyrte/Rules/master/QuantumultX/Filter/MyBlockAds.list
 # 更新时间：2023.3.3
 # 策略选择：reject
