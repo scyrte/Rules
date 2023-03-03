@@ -20,9 +20,18 @@ host, jlads.leshuazf.com, reject
 # 乐聚量/扫扫科技
 host-suffix, lejuliang.com, reject
 
+# 分秒网络
+host-suffix, openinstall.io, reject
+
+# 阿里系/友盟系
+host-suffix, umsns.com, reject
+host-suffix, huichuan-mc.sm.cn, reject
+
 # 小蚁摄像机（误杀大）
 host, xiaoyi-publicfiles.oss-cn-shanghai.aliyuncs.com, reject
 host-suffix, log.ys7.com, reject
+host, mfs.ys7.com, reject
+;host-suffix, ys.aipai.com, reject
 
 # 亲邻小程序
 ;host, qadm.qinlinad.com, reject
@@ -34,7 +43,4 @@ host, mall-dsp.qinlinkeji.com, reject
 host, sales.qinlinkeji.com, reject
 
 # 其他
-host-suffix, openinstall.io, reject
-host-suffix, huichuan-mc.sm.cn, reject
 host-suffix, knockout, reject
-host-suffix, umsns.com, reject
