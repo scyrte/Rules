@@ -2,7 +2,7 @@
 # 分流作用：分流去广告
 # 重要提示：部分规则有误杀，自行选用
 # 项目地址：https://raw.githubusercontent.com/scyrte/Rules/master/QuantumultX/Filter/MyBlockAds.list
-# 更新时间：2023.3.3
+# 更新时间：2023.3.4
 # 策略选择：reject
 #############################################
 # 丰巢小程序
@@ -16,6 +16,9 @@ host-suffix, mall.fcbox.com, reject
 host, hugelog.fcbox.com, reject
 host, hugelog-sit1.fcbox.com, reject
 host, hugelog-sit3.fcbox.com, reject
+
+# 汇付天下/汇来米
+host, saas-ad.cloudpnr.com, reject
 
 # 乐刷/收银通，微信扫码支付广告
 host, jlads.leshuazf.com, reject
