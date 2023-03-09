@@ -2,7 +2,7 @@
 # 分流作用：修正某些被分流到外面的国内网站
 # 重要提示：无
 # 项目地址：https://raw.githubusercontent.com/scyrte/Rules/master/QuantumultX/Filter/fenliuxiuzheng.list
-# 更新时间：2023.02.27
+# 更新时间：2023.03.10
 # 策略选择：直连 direct
 ############################################
 
@@ -28,4 +28,6 @@ host-suffix, jiguang.cn, direct
 host-suffix, qiyukf.com, direct
 host-suffix, pv.sohu.com, direct
 host-suffix, stats.cn.ronghub.com, direct
+host-suffix, deepano.com, direct
+host-suffix, ibeta.me, direct
 
