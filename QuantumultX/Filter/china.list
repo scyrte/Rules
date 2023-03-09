@@ -12,10 +12,8 @@ host-suffix, adashx.ut.amap.com, direct
 host-suffix, adashx.m.taobao.com, direct
 host-suffix, eco.taobao.com, direct
 host-suffix, utoken.umeng.com, direct
-host-suffix, umdc.aliapp.org, direct
+host-suffix, aliapp.org, direct
 host-suffix, abtest.alibaba.com, direct
-host-suffix, ynuf.aliapp.org, direct
-host-suffix, cdn.ynuf.aliapp.org, direct
 host-suffix, fourier.taobao.com, direct
 
 # 京东系
