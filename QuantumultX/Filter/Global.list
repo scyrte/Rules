@@ -1,0 +1,13 @@
+host-suffix, icp-system.hwsdn.com, proxy
+host-suffix, gitlab.com, proxy
+host-suffix, shrtm.nu, proxy
+host-suffix, tmdb.org, proxy
+host-suffix, stayfork.app, proxy
+host-suffix, greasyfork.org, proxy
+host-suffix, limbopro.com, proxy
+host-suffix, quantumult.app, proxy
+host-suffix, stripe.network, proxy
+host-suffix, stripe.com, proxy
+host-suffix, igoutu.cn, proxy
+host-suffix, icons8.com, proxy
+ip-cidr, 43.156.222.0/20, proxy
