@@ -1,3 +1,4 @@
+ip-cidr, 43.156.222.0/20, proxy
 host-suffix, icp-system.hwsdn.com, proxy
 host-suffix, gitlab.com, proxy
 host-suffix, shrtm.nu, proxy
@@ -10,4 +11,5 @@ host-suffix, stripe.network, proxy
 host-suffix, stripe.com, proxy
 host-suffix, igoutu.cn, proxy
 host-suffix, icons8.com, proxy
-ip-cidr, 43.156.222.0/20, proxy
+host-suffix, cloudflare-dns.com, proxy
+host-suffix, adguard.org, proxy
