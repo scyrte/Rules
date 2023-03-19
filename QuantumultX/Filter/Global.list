@@ -15,3 +15,7 @@ host-suffix, cloudflare-dns.com, proxy
 host-suffix, adguard.org, proxy
 host-suffix, clickfuk.com, proxy
 host-suffix, cloudflare.com, proxy
+host-suffix, cloudinary.com, proxy
+host-suffix, jsdelivr.com, proxy
+host-suffix, jsdelivr.net, proxy
+host-suffix, bigdatacloud.net, proxy
